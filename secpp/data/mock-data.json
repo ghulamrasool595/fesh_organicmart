@@ -1,0 +1,30 @@
+{
+  "products": [
+    { "id": 1, "name": "Organic Honey", "price": 12, "stock": 5, "image": "honey.jpg" },
+    { "id": 2, "name": "Almond Milk", "price": 4, "stock": 15, "image": "milk.jpg" },
+    { "id": 3, "name": "Whole Wheat Bread", "price": 3, "stock": 2, "image": "bread.jpg" },
+    { "id": 4, "name": "Green Tea", "price": 6, "stock": 10, "image": "tea.jpg" },
+    { "id": 5, "name": "Brown Rice", "price": 8, "stock": 0, "image": "rice.jpg" }
+  ],
+  "users": [
+    { "username": "admin", "role": "admin" },
+    { "username": "john_doe", "role": "customer" },
+    { "username": "driver001", "role": "driver" }
+  ],
+  "orders": [
+    {
+      "id": "ORD001",
+      "customer": "john_doe",
+      "items": ["Honey", "Milk"],
+      "status": "Pending",
+      "assignedTo": null
+    },
+    {
+      "id": "ORD002",
+      "customer": "john_doe",
+      "items": ["Bread"],
+      "status": "Assigned to Driver",
+      "assignedTo": "driver001"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.btn {
+  border-radius: 6px;
+}
